@@ -1,0 +1,26 @@
+# Seção 2: ES6
+# Aula 8 - Sistemas de Módulo
+
+ES8 - JavaScript Modules System
+      Sistemas de Módulos JavaScript
+
+Por que usar?   É util para a reutilização de código
+                Você pode usar a mesma função em vários arquivos (através da importação)
+                Caso necessário, é preciso alterar essa função apenas no arquivo fonte
+
+ Quais existem? AMD - Asynchronous Module Definition
+                Common JS - Node JS
+                ES6 - import/export
+
+AMD
+    define (['./lib/jquery.s], functions($){
+        $.ajax
+    });          
+
+Common JS
+            var express = require('express');
+
+ES6
+    import React from 'react';
+
+    
